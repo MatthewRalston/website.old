@@ -5,10 +5,10 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Foundation Template | Marketing</title>
-<meta name="description" content="Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more."/>
-<meta name="author" content="ZURB, inc. ZURB network also includes zurb.com"/>
-<meta name="copyright" content="ZURB, inc. Copyright (c) 2013"/>
+<title>Matt Ralston | Scientist</title>
+<meta name="description" content="This is a first attempt at a personal website using Zurb's foundation."/>
+<meta name="author" content="Matthew Ralston"/>
+<meta name="copyright" content="Matthew Ralston, (c) 2014"/>
 <link rel="stylesheet" href="css/foundation.css"/>
 <script src="js/vendor/modernizr.js"></script>
 </head>
@@ -20,7 +20,7 @@
 <li class="name">
 <h1>
 <a href="#">
-Top Bar Title
+Matthew Ralston
 </a>
 </h1>
 </li>
@@ -73,18 +73,41 @@ Top Bar Title
 </section>
 </nav>
  
+<ul class="example-orbit" data-orbit>
+      <li>
+        <img src="http://franceskissling.com/images/under_construction_banner.jpg" alt="slide 1" />
+        <div class="orbit-caption"> Please check back later. </div> 
+      </li> 
+      <li>
+        <img src="http://louderback.com/wp-content/uploads/2013/37c4ed739db5_9D65/treasure-2.gif" alt="slide 2" /> 
+        <div class="orbit-caption"> In the mean time, check out some Calvin and Hobbes </div> 
+      </li>
+      <li> 
+        <img src="http://cdn0.sbnation.com/imported_assets/1025890/CH860417_JPG.jpg" alt="slide 3" /> 
+        <div class="orbit-caption"> Bill Waterson is awesome. </div> 
+      </li>
+
+      <li> 
+        <img src="http://www.distractionware.com/blog/images/february07/onelife.jpg" alt="slide 4" /> 
+        <div class="orbit-caption"> I'm out of town, be back later. </div> 
+      </li>
+      <li> 
+        <img src="https://3.bp.blogspot.com/_UZ4w5WmbI9Y/TRIQCDjnv8I/AAAAAAAACOA/r_c6oi5Mx5E/s640/calhob.gif" alt="slide 5" /> 
+        <div class="orbit-caption"> Check back soon! </div> 
+      </li>
+    </ul>
+
+    <script src="./js/vendor/jquery.js"></script>
+    <script src="./js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
 <div class="row">
 <div class="large-12 columns">
  
-<div class="row">
-<div class="large-12 hide-for-small">
-<div id="featured" data-orbit>
-<img src="http://placehold.it/1200x500&text=Slide Image 1" alt="slide image">
-<img src="http://placehold.it/1200x500&text=Slide Image 2" alt="slide image">
-<img src="http://placehold.it/1200x500&text=Slide Image 3" alt="slide image">
-</div>
-</div>
-</div>
+
+
  
  
 <div class="row">
@@ -195,8 +218,8 @@ Risus ligula, aliquam nec fermentum vitae, sollicitudin eget urna. Suspendisse u
     $(document).foundation();
   </script>
  
-<script src="../assets/js/jquery.js"></script>
-<script src="../assets/js/templates/foundation.js"></script>
+<script src="js/vendor/jquery.js"></script>
+<script src="/js/foundation/foundation.js"></script>
 <script>
       $(document).foundation();
 
