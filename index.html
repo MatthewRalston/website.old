@@ -1,208 +1,403 @@
-
-<!doctype html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Matt Ralston | Scientist</title>
-<meta name="description" content="This is a first attempt at a personal website using Zurb's foundation."/>
-<meta name="author" content="Matthew Ralston"/>
-<meta name="copyright" content="Matthew Ralston, (c) 2014"/>
-<link rel="stylesheet" href="css/foundation.css"/>
-<!-- <script src="js/vendor/modernizr.js"></script> -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Matt Ralston">
+  <title>Matt Ralston</title>
 
-  ga('create', 'UA-54754134-1', 'auto');
-ga('require', 'displayfeatures');
-  ga('send', 'pageview');
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/styles.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+  <!-- Custom Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
-</script>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
-<body>
- 
-<nav class="top-bar" data-topbar>
-<ul class="title-area">
- 
-<li class="name">
-<h1>
-<a href="#">
-Matthew Ralston
-</a>
-</h1>
-</li>
-<li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-</ul>
-<section class="top-bar-section">
- 
-<ul class="right">
-<li class="divider"></li>
-<li class="has-dropdown">
-<a href="#">Main Item 1</a>
-<ul class="dropdown">
-<li><label>Section Name</label></li>
-<li class="has-dropdown">
-<a href="#" class="">Has Dropdown, Level 1</a>
-<ul class="dropdown">
-<li><a href="#">Dropdown Options</a></li>
-<li><a href="#">Dropdown Options</a></li>
-<li><a href="#">Level 2</a></li>
-<li><a href="#">Subdropdown Option</a></li>
-<li><a href="#">Subdropdown Option</a></li>
-<li><a href="#">Subdropdown Option</a></li>
-</ul>
-</li>
-<li><a href="#">Dropdown Option</a></li>
-<li><a href="#">Dropdown Option</a></li>
-<li class="divider"></li>
-<li><label>Section Name</label></li>
-<li><a href="#">Dropdown Option</a></li>
-<li><a href="#">Dropdown Option</a></li>
-<li><a href="#">Dropdown Option</a></li>
-<li class="divider"></li>
-<li><a href="#">See all &rarr;</a></li>
-</ul>
-</li>
-<li class="divider"></li>
-<li><a href="cv.html">C.V.</a></li>
-<li class="divider"></li>
-<li><a href="http://www.linkedin.com/in/matthewralston/">LinkedIn</a></li>
-<li class="divider"></li>
-<li><a href="http://www.github.com/MatthewRalston/">Github</a></li>
-</ul>
-</section>
-</nav>
 
-<ul class="example-orbit" data-orbit>
-  <li>
-    <a href="http://matthewralston.github.io/circular-d3">
-      <img src="img/scroller-circos.png"/>
-      <!-- <img src="img/scroller.png"/> -->
-    </a>
-    <div class="orbit-caption"> Interactive Circular plot </div> 
-  </li>
-  <li>
-    <a href="wordcloud.html">
-      <img src="img/wordcloudscroller.png" withd=1200/>
-    </a>
-    <div class="orbit-caption"> Thesis Word Cloud </div>
-  </li>
-  <li>
-    <a href="http://matthewralston.github.io/three_d">
-      <img src="img/pca-side-by-side.gif" width=1200>
-    </a><br/>
-    <div class="orbit-caption"> Interactive Principal Components Analysis </div>
-  </li>
-  <li>
-    <a href="http://matthewralston.github.io/maplots">
-      <img src="img/maplot-static.png">
-    </a><br/>
-    <div class="orbit-caption"> Interactive MA-plot </div>
-  </li>
-  <li>
-    <img src="http://franceskissling.com/images/under_construction_banner.jpg" alt="slide 1"/>
-    <div class="orbit-caption"> Please check back later. </div> 
-  </li>
-  <li>
-    <img src="http://louderback.com/wp-content/uploads/2013/37c4ed739db5_9D65/treasure-2.gif" alt="slide 2"/> 
-  </li>
-</ul>
+<body id="page-top" class="index">
+  <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped together for better mobile display -->
+      <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+      </div>
 
-<script src="./js/vendor/jquery.js"></script>
-<script src="./js/foundation.min.js"></script>
-<script>
- $(document).foundation();
-</script>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
 
-<div class="row">
-<div class="large-12 columns">
- 
+		<li><a class="page-scroll color1" href="#about">About</a></li>
+		<li><a class="page-scroll color2" href="#pages">Pages</a></li>
+		<li><a class="page-scroll color3" href="#goals">Goals</a></li>
+		<li><a class="page-scroll color4" href="#links">Links</a></li>
+		<li><a class="page-scroll color5" href="#articles">Articles</a></li>
+
+        </ul>
+      </div> <!-- /.navbar-collapse -->
+    </div> <!-- /.container -->
+  </nav>
+
+  <!-- Rainbow Bar -->
+  <div class="top-bar"></div>
+
+  <!-- Header -->
+  <header id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="greeting color4">Salutations!</h2>
+          <h1 class="color2">Matt Ralston</h1>
+          <h2 class="subheader">Bioinformatician / Gamer / Powerlifter</h2>
+          <ul class="list-inline social-btns">
+            <li><a href="mailto:matthew.ralston@bms.com"><i class="fa fa-envelope-o color1"></i></a></li>
+            <li><a href="https://linkedin.com/in/matthewralston" target=_blank><i class="fa fa-linkedin color2"></i></a></li>
+	    <li><a href="http://matthewralston.us" target=_blank><i class="fa fa-ra color3"></i></a></li>
+            <li><a href="http://github.com/MatthewRalston" target=_blank><i class="fa fa-github color4"></i></a></li>
+            <li><a href="http://facebook.com/matthewthomasralston" target=_blank><i class="fa fa-facebook color5"></i></a></li>
+	    <!-- <li><a href="http://soundcloud.com/thewaterandwind" target=_blank><i class="fa fa-soundcloud color6"/></a> </li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="spacing"></div>
+    </div>
+  </header>
 
 
- 
- 
-<div class="row">
-  <div class="large-12 columns show-for-small">
-    <a href="http://MatthewRalston.github.io/circular-d3">
-      <img src="img/circos-small.png"></a>
-  </div>
-</div><br>
- 
- 
- 
-<div class="large-6 small-12 columns">
-<img src="img/Huancaya.jpg">
-<p>Welcome!  My name is Matt Ralston and this is my personal website. I recently graduated with my Masters of Science in Bioinformatics and Computational Biology at the University of Delaware. My thesis was titled "Assembling Improved Gene Annotations in <i>Clostridium acetobutylicum</i> with RNA Sequencing" and should be available soon on ProQuest. My principle accomplishment has been the development of an integrative misassembly correction method and first strand-specific transcriptome assembly in the genus <i>Clostridia</i>. I have prepared a custom genome browser website for interactive visualization of the <i>C. acetobutylicum</i> genome and annotation downloading.</p>
+  <!-- Speaking -->
+  <section id="about">
+    <div class="container">
+      <div class="spacing"></div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 >About Me.</h2>
+	  <p>Young guy with a training in scientific analysis of biological and chemical datasets. Looks for disciplines that are synergistic (maths, data science, chemistry, etc.) with biology for applications revolving around pharma, energy, and biotech. I admire the pioneers in the GPL, CC, and open-science communities. Some day, I'll do a PhD using as many arduino-ey instruments as possible on a citizen-science type project.</p>
+	  <p>In today's high-paced technological world we are surrounded by instruments and data. Some data is correlated, some isn't. But inside all the idiosyncracies of the biochemical or physicochemical systems that we are observing, is observable truth. Most of the time, we are not exposed to this truth; it is either harnassed and abused in the for-profit sector or it is kept simple and docile behind under-funded academic doors. The nature of causality, truth, and efficiency are all almost universal objective functions that have a rich history and an exciting future. We live in a beautiful time to experience both our digital and physical selves. Regardless of the exact path of digitization, our future is dictated by the challenges of psychie, ethics, and observation of phenomena through instrumentation.</p>
+	  <p>Functional programming fanboy, weeb, yuppie, space cowboy, gamer, guitarist. Representing 302 #onelove</p>
+           <h4>Professional:</h4>
+	   <div id="professional_accordion" role="tablist" aria-multiselectable="true" class="card-group">
+	     <div class="panel panel-default">
+	       <a title="headingOne" aria-controls="collapseOne" aria-expanded="false" href="#collapseOne" data-parent="professional_accordion" data-toggle="collapse" role="tab" class="panel-heading collapsed" id="workplaces"><span class="panel-title" >Places I've Worked</span></a>
+	       <div aria-labelledby="headingOne" role="tabpanel" class="panel-collapse collapse" id="collapseOne" aria-expanded="false">
+		 <div class="panel-body center" id="workplaces">
+		   <ul id="workplaces">
+		     <li id="papoutsakis">
+		       <a href="http://papoutsakis.org" >Papoutsakis Lab</a>
+		     </li>
+		     <li id="bms">
+		       <a href="http://bms.com">Bristol Myers Squibb</a>
+		     </li>
+		   </ul>
+		 </div>
+	       </div>
+	     </div>
+	     <div class="panel panel-default">
+	       <a title="headingTwo" aria-controls="collapseTwo" aria-expanded="false" href="#collapseTwo" data-parent="professional_accordion" data-toggle="collapse" role="tab" class="panel-heading collapsed" id="current_projects"><span class="panel-title">Current Projects</span></a>
+	       <div aria-labelledby="headingTwo" role="tabpanel" class="panel-collapse collapse" id="collapseTwo" aria-expanded="false">
+		 <div class="panel-body center" id="projects">
+		   <ul id="projects">
+		     <li id="enrichment">
+		       Enrichment Modeling
+		     </li>
+		     <li id="seq-database">
+		       Sequence Database and Query Interface
+		     </li>
+		     <li id="interactive-visualization">
+		       Interactive Visualizations
+		     </li>
+		     <li id="ngsci">
+		       Next Generation Sequencing Complexity Index
+		     </li>
+		     <li id="arch">
+		       Customized Arch Linux OS
+		     </li>
+		   </ul>
+		 </div>
+	       </div>
+	     </div>
+	     <div class="panel panel-default">
+	       <a title="headingThree" aria-controls="collapseThree" aria-expanded="false" href="#collapseThree" data-parent="professional_accordion" data-toggle="collapse" role="tab" class="panel-heading collapsed" id="training"><span class="panel-title">Training</span></a>
+	       <div aria-labelledby="headingThree" role="tabpanel" class="panel-collapse collapse" id="collapseThree" aria-expanded="false">
+		 <div class="panel-body center" id="training">
+		   <ul id="training">
+		     <li id="theoretical">
+		       <span class="panel-title">THEORETICAL</span>
+		       <ul>
+			 <li>Biochemistry</li>
+			 <li>Physiology</li>
+			 <li>Genetics/Genomics</li>
+			 <li>Algorithms</li>
+			 <li>Biostatistics</li>
+			 <li>Machine Learning</li>
+		       </ul>
+		     </li>
+		     <li id="laboratory">
+		       <span class="panel-title">LABORATORY</span>
+		       <ul>
+			 <li id="chemistry">
+			   <span class="panel-title">Organic, Phyical, Analytical Chemistry:</span>
+			   <ul class="training-sublist">
+			     <li>GC-MS</li>
+			     <li>HPLC</li>
+			     <li>ITC</li>
+			   </ul>
+			 </li>
+			 <li id="microbiology">
+			   <span class="panel-title">Microbiology:</span>
+			   <ul class="training-sublist">
+			     <li>Fed-batch fermentation</li>
+			     <li>Plate/colony culture</li>
+			     <li>Flux-balance analysis</li>
+			   </ul>
+			 </li>
+			 <li id="immunoscience">
+			   <span class="panel-title">Immunoscience:</span>
+			   <ul class="training-sublist">
+			     <li>Fluorescence-Activated Cell Sorting (FACS)</li>
+			     <li>Immunofluorescence / Immunohistochemistry</li>
+			     <li>Wester blot</li>
+			   </ul>
+			 </li>
+			 <li id="molbio">
+			   <span class="panel-title">Molecular Biology:</span>
+			   <ul class="training-sublist">
+			     <li>q-RT-PCR</li>
+			     <li>Next Generation Sequencing</li>
+			   </ul>
+			 </li>
+		       </ul>
+		     </li>
+		     <li id="coding">
+		       <span class="panel-title">CODING</span>
+		       <ul>
+			 <li id="database">
+			   <span class="panel-title">Database:</span>
+			   <ul class="training-sublist">
+			     <li>MySQL/MariaDB</li>
+			     <li>PostgreSQL</li>
+			     <li>MongoDB</li>
+			   </ul>
+			 </li>
+			 <li id="stats">
+			   <span class="panel-title">Statistics / Visualization:</span>
+			   <ul class="training-sublist">
+			     <li>R</li>
+			     <li>KnitR</li>
+			     <li>Shiny</li>
+			     <li>Data-Driven Documents (D3.js)</li>
+			   </ul>
+			 </li>
+			 <li id="web">
+			   <span class="panel-title">Web Development:</span>
+			   <ul class="training-sublist">
+			     <li>HTML</li>
+			     <li>Javascript</li>
+			     <li>CSS</li>
+			     <li>REST-APIs</li>
+			   </ul>
+			 </li>
+			 <li id="shell">
+			   <span class="panel-title">UNIX Shell:</span>
+			   <ul class="training-sublist">
+			     <li>Ubuntu/RHEL/Arch Linux</li>
+			     <li>OSX</li>
+			     <li>Bash</li>
+			   </ul>
+			 </li>
+			 <li id="app">
+			   <span class="panel-title">Scripting / Full-stack:</span>
+			   <ul class="training-sublist">
+			     <li>Python</li>
+			     <li>Ruby</li>
+			     <li>Perl</li>
+			     <li>NodeJS</li>
+			   </ul>
+			 </li>
+			 <li id="lambda">
+			   <span class="panel-title">Functional Programming:</span>
+			   <ul class="training-sublist">
+			     <li>Scheme</li>
+			     <li>Haskell</li>
+			   </ul>
+			 </li>
+		       </ul>
+		     </li>
+		   </ul>
+		 </div>
+	       </div>
+	     </div>	     
+           </div>  
+	</div>
+      <div class="spacing"></div>
+      </div>
+  </section>
 
 
-<p> I am entering the job market, looking for a group that appreciates mechanistic factors associated with high-throughput technologies and that can utilize my interdisciplinary expertise. Please be sure to check out my C.V. and feel free to e-mail my at mrals_at_udel.edu. Thank you for stopping by!</p>
-</div>
- 
- 
-<div class="large-4 small-10 columns">
-  <h4>Recent Activity</h4><hr>
-<div class="panel">
-  <h5><a href="https://matthewralston.github.io/circular-d3">Interactive circular graph</a></h5>
-<h6 class="subheader">
-A interactive visualization of RNA-seq data was built to display results from a recent experiment of mine.
-</h6>
-<h6><a href="https://matthewralston.github.io/circular-d3">Read More »</a></h6>
-</div>
-<div class="panel hide-for-small">
-  <h5><a href="https://matthewralston.github.io/three_d">Interactive PCA »</a></h5>
-</div>
-<div class="panel hide-for-small">
-  <h5><a href="https://matthewralston.github.io/maplots">Interactive MA-plots »</a></h5>
-</div>
-<div class="panel hide-for-small">
-  <h5><a href="wordcloud.html">Word Cloud from my Thesiss »</a></h5>
-</div> 
-<a href="#" class="right">Go To Blog »</a>
-</div>
- 
-</div>
-</div>
-</div>
- 
- 
-<footer class="row">
-<div class="large-12 columns"><hr>
-<div class="row">
-<div class="large-6 columns">
-<p>&copy; Copyright 2014 Matt Ralston, all rights reserved.</p>
-</div>
-<div class="large-6 small-12 columns">
-<ul class="inline-list right">
-<li><a href="#">Link 1</a></li>
-<li><a href="#">Link 2</a></li>
-<li><a href="#">Link 3</a></li>
-<li><a href="#">Link 4</a></li>
-</ul>
-</div>
-</div>
-</div>
-</footer>
- 
-</div>
-</div>
-<script>
-  document.write('<script src=js/vendor/' +
-  ('__proto__' in {} ? 'zepto' : 'jquery') +
-  '.js><\/script>')
-  </script>
-  <script src="js/foundation.min.js"></script>
-  <script src="js/vendor/jquery.js"></script>
-  <script src="js/foundation/foundation.js"></script>
-  <script>
-   $(document).foundation();
-   
-   var doc = document.documentElement;
-   doc.setAttribute('data-useragent', navigator.userAgent);
-  </script> 
+  
+  <!-- Coding -->
+  <section id="links">
+    <div class="container">
+      <div class="spacing"></div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 >Links. Cause who doesn't miss web 1.0?</h2>
+        </div>
+      </div>
+      <div id="links_accordion" role="tablist" aria-multiselectable="true" class="card-group">
+	<div class="panel panel-default">
+	  <a title="learningOne" aria-controls="learningOne" aria-expanded="false" href="#collapseLOne" data-parent="link_accordion" data-toggle="collapse" role="tab" class="panel-heading collapsed" id="learning"><span class="panel-title" >Learning</span></a>
+	  <div aria-labelledby="learningOne" role="tabpanel" class="panel-collapse collapse" id="collapseLOne" aria-expanded="false">
+	    <div class="panel-body center" id="learning">
+	      <ul id="learninglist">
+		<li id="git">
+		  <span class="panel-title">Git:</span>
+		  <ul class="git-sublist">
+		    <li>
+		      <a href="http://onlywei.github.io/explain-git-with-d3">Practice with the commit tree online</a>
+		    </li>
+		    <li>
+		      <a href="https://sethrobertson.github.io/GitBestPractices/">Best practices</a>
+		    </li>
+		    <li>
+		      <a href="https://svnvsgit.com/">For those who can chuckle at dinosaurs</a>
+		    </li>
+		  </ul>
+		</li>
+		<li id="bioinformatics">
+		  <span class="panel-title">Bioinformatics:</span>
+		  <ul class="bioinformatics-sublist">
+		    <li>
+		      <a href="http://scikit-learn.org/stable/tutorial/machine_learning_map/">Scikit Learn's 'which learning method?'</a>
+		    </li>
+		    <li>
+		      <a href="http://stats.idre.ucla.edu/other/mult-pkg/whatstat/">UCLA's 'which hypothesis test?'</a>
+		    </li>
+		    <li>
+		      <a href="http://circos.ca">Circular charts for genomics</a>
+		    </li>
+		    <li>
+		      <a href="http://usegalaxy.org">Galaxy: An open-source genomics data analysis and visualization platform</a>
+		    </li>
+		    <li>
+		      <a href="http://rosalind.info">Rosalind: Practice basic coding skills on biological problems</a>
+		    </li>			 
+		  </ul>
+		</li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+	<div class="panel panel-default">
+	  <a title="humorOne" aria-controls="humorOne" aria-expanded="false" href="#collapseHOne" data-parent="link_accordion" data-toggle="collapse" role="tab" class="panel-heading collapsed" id="humor"><span class="panel-title" >Other:</span></a>
+	  <div aria-labelledby="humorOne" role="tabpanel" class="panel-collapse collapse" id="collapseHOne" aria-expanded="false">
+	    <div class="panel-body center" id="learning">
+	      <ul id="otherlist">
+		<li id="misc">
+		  <span class="panel-title">Misc:</span>
+		  <ul class="misc-sublist">
+		    <li>
+		      <a href="http://sleepyti.me">Go the fsck to sleep</a>
+		    </li>
+		  </ul>
+		</li>
+		<li id="humor">
+		  <span class="panel-title">Humor:</span>
+		  <ul class="humor-sublist">
+		    <li>
+		      <a href="http://youtube.com/user/JusReign">Jus Reign: Brampton comedian extraordinare</a>
+		    </li>
+		    <li>
+		      <a href="http://phdcomics.com">PhD Comics</a>
+		    </li>
+		    <li>
+		      <a href="https://xkcd.com">XKCD: XD</a>
+		    </li>
+		    <li>
+		      <a href="http://reddit.com/r/programmerhumor">/r/programmerhumor</a>
+		    </li>
+		    <li>
+		      <a href="http://reddit.com/r/pcmasterrace">PCMR: Join the brotherhood</a>
+		    </li>
+		  </ul>
+		</li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+      <div class="spacing"></div>
+    </div>
+  </section>
+
+  <!-- Articles -->
+  <section id="articles">
+    <div class="container">
+      <div class="spacing"></div>
+      <div class="row">
+
+        <div class="col-md-12 text-center">
+          <h2 >Writing.</h2>
+           <p>Some of the places where my writing has been featured:</p>
+            <ul class="list-inline articles-btns">
+              <li><a href="http://www.biomedcentral.com/1471-2164/14/849"><img src="images/articles/BMC_Genomics.gif" alt="Sitepoint" class="img-responsive"></a></li>
+              <li><a href="http://link.springer.com/article/10.1007/s00253-014-6004-0"><img src="images/articles/Logo_AMB.png" alt="" class="img-responsive"></a></li>
+              <li><a href="http://biotechnologyforbiofuels.biomedcentral.com/articles/10.1186/s13068-015-0260-9"><img src="images/articles/BiotechForBiofuels.gif" alt="" class="img-responsive"></a></li>
+            </ul>
+        </div>  
+      </div>
+      <div class="spacing"></div>
+    </div>
+  </section>
+
+  
+    <footer>
+    <div class="container">
+      <div class="spacing"></div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Let's Stay In Touch!</h2>
+
+          <div class="spacing"></div>
+      
+          <ul class="list-inline social-btns">
+            <li><a href="mailto:matthew.ralston@bms.com"><i class="fa fa-envelope-o color1"></i></a></li>
+            <li><a href="https://linkedin.com/in/matthewralston" target=_blank><i class="fa fa-linkedin color2"></i></a></li>
+	    <li><a href="http://ralstonm.biogit.pri.bms.com" target=_blank><i class="fa fa-angle-double-up color3"></i></a></li>
+            <li><a href="http://github.com/MatthewRalston" target=_blank><i class="fa fa-github color4"></i></a></li>
+            <li><a href="http://biogit.pri.bms.com/ralstonm" target=_blank><i class="fa fa-github color5"></i></a></li>
+          </ul>
+          <small>Copyright by Matt Ralston &copy;</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Rainbow Bar -->
+  <div class="bottom-bar"></div>
+
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js" type="text/javascript"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" type="text/javascript"></script>
+<script src="javascripts/modernizr.js" type="text/javascript"></script>
+<script src="javascripts/custom.js" type="text/javascript"></script>
+
+<!-- <script src="//load.sumome.com/" data-sumo-site-id="2aa87777059b6b5128a0d79dc630fbee7383ae3e50e5e58b49fab84d74486911" async></script> -->
 
 
 </body>

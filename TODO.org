@@ -1,0 +1,103 @@
+
+* Assets
+** Find picture to turn black/white and transparent
+* Create multi-page layout for older stuff
+* Create an about me section
+** Professional
+*** Places I've worked (briefcase)
+**** Papoutsakis lab  (Flask: Link to Papoutsakis lab)
+**** Bristol Myers (Sitemap: Link to bms.com)
+*** Current Projects (bar-chart-o)
+**** Enrichment modeling (line chart)
+**** Sequence database and query interface (database)
+**** Interactive Visualizations (eye)
+**** NGS-CI (diamond)
+**** Arch OS build (cogs)
+*** Training (university)
+**** Theoretical (university)
+***** Biochemistry
+***** Physiology
+***** Genetics
+***** Algorithms
+***** Biostatistics
+***** Machine learning
+**** Laboratory (flask)
+***** Organic, physical, analytical chemistry
+****** GCMS
+****** HPLC
+****** ITC
+***** Microbiology
+****** Fed-batch fermentation
+****** Plate/colony culture
+***** Immunoscience
+****** Fluorescent Activated Cell Sorting
+****** Immunofluorescence/immunohistochemistry
+****** Western blot
+***** Molecular biology
+****** Next Generation Sequencing
+**** Coding (code)
+***** DB: MySQL, PostgreSQL, MongoDb
+***** Stats/Visualization: R/Shiny/KnitR, D3
+***** Web: Javascript/HTML/CSS
+***** Shell: Bash
+***** Scripting: Python/Ruby/Perl/NodeJS
+***** Functional: Haskell/Scheme
+
+** Personal
+*** Interests
+**** Biology/Chemistry
+**** Computer Science
+**** Mathematics/Statistics
+*** Hobbies
+**** Bioinformatic on public data
+**** Music
+**** Weightlifting
+**** Gaming
+**** TV
+**** Programming and DevOps
+
+** Goals/Fun (embed trello?)
+*** NodeJS app
+**** API-key: f62e45fdfa00c3e3add97769cbcb381a (do we need it?)
+**** take url of public board and add '.json', contains the full contents of the board
+*** Citizen Science
+**** Parasite Sequencing
+**** Kitchen chemistry
+**** Sushi analysis
+**** Drone programming
+*** Gaming
+**** Dota road to 1k
+*** Computing
+**** Building a computer
+***** Show PC Park Picker list
+**** Building an OS
+***** Arch Linux
+****** Display manager
+****** Conky
+**** AWS Cloud Computing
+***** Galaxy in the Cloud with cfncluster
+** Pages
+*** Interactive Circos
+*** Scatter plot
+** Links
+*** Teaching/Learning
+**** git
+**** bioinformatics
+**** linear algebra
+**** machine learning / data science
+*** Humor
+**** /r/programmerhumor
+**** JusReign
+*** Publications
+
+
+
+* Plots
+** Line graph
+*** Genome sequencing cost trends
+** Biotech/therapy scatterplot with brush
+*** Revenue vs disease area market size?
+*** Average approvals per year vs average revenue (with company glyphs)
+**** Brush to display approval time series AND/OR revenue time series
+** Agricultural data?
+** Commodity data? (copper)
