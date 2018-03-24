@@ -1,35 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="Matt Ralston">
-  <title>Matt Ralston</title>
-
-  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-  <link href="stylesheets/styles.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Second attempt at a personal page, scheme by Benjamin Tan Wei Hao in fair use by Github TOS section D5."/>
+  <meta name="author" content="Matthew Ralston"/>
+  <meta name="copyright" content="Matthew Ralston, (c) 2018"/>
+  <title>Matt R. | Personal Page</title>
+  <!-- CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/main.github.io.css" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
   <!-- Custom Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
+  <!-- Javascript -->
+  <script> 
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+   ga('create', 'UA-54754134-1', 'auto');
+   ga('require', 'displayfeatures');
+   ga('send', 'pageview');
+  </script>
+
 </head>
 
 <body id="page-top" class="index">
   <!-- Navigation -->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
+      <!-- Benjamin's mobile-specific magic. Thank you -->
       <!-- Brand and toggle get grouped together for better mobile display -->
       <div class="navbar-header page-scroll">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -39,14 +51,20 @@
             <span class="icon-bar"></span>
         </button>
       </div>
-
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	<!-- Fixed links, whole website -->
+	<ul class="nav navbar-nav navbar-left">
+	  <li><a class="page-scroll color1">Pages :</a></li>
+	  <li><a class="page-scroll color2" href="/">Home</a></li>
+	  <li><a class="page-scroll color3" href="cv.html">C.V.</a></li>
+	  <li><a class="page-scroll color2" href="https://matthewralston.github.io/blog/">Blog</a></li>
+	</ul>
+	<!-- Intra-page links / Page sections -->
         <ul class="nav navbar-nav navbar-right">
-
 		<li><a class="page-scroll color1" href="#about">About</a></li>
-		<li><a class="page-scroll color2" href="#pages">Pages</a></li>
-		<li><a class="page-scroll color3" href="#goals">Goals</a></li>
-		<li><a class="page-scroll color4" href="#links">Links</a></li>
+		<li><a class="page-scroll color2" href="#goals">Goals</a></li>
+		<li><a class="page-scroll color3" href="#links">Links</a></li>
+		<li><a class="page-scroll color4">Help</a></li>
 		<li><a class="page-scroll color5" href="#articles">Articles</a></li>
 
         </ul>
@@ -54,10 +72,10 @@
     </div> <!-- /.container -->
   </nav>
 
-  <!-- Rainbow Bar -->
+  <!-- Rainbow Bar | IMO would be the coolest bar. -->
   <div class="top-bar"></div>
 
-  <!-- Header -->
+  <!-- Header  -->
   <header id="top">
     <div class="container">
       <div class="row">
@@ -80,17 +98,19 @@
   </header>
 
 
-  <!-- Speaking -->
+  <!-- About -->
   <section id="about">
     <div class="container">
       <div class="spacing"></div>
       <div class="row">
         <div class="col-md-12 text-center">
           <h2 >About Me.</h2>
-	  <p>Young guy with a training in scientific analysis of biological and chemical datasets. Looks for disciplines that are synergistic (maths, data science, chemistry, etc.) with biology for applications revolving around pharma, energy, and biotech. I admire the pioneers in the GPL, CC, and open-science communities. Some day, I'll do a PhD using as many arduino-ey instruments as possible on a citizen-science type project.</p>
-	  <p>In today's high-paced technological world we are surrounded by instruments and data. Some data is correlated, some isn't. But inside all the idiosyncracies of the biochemical or physicochemical systems that we are observing, is observable truth. Most of the time, we are not exposed to this truth; it is either harnassed and abused in the for-profit sector or it is kept simple and docile behind under-funded academic doors. The nature of causality, truth, and efficiency are all almost universal objective functions that have a rich history and an exciting future. We live in a beautiful time to experience both our digital and physical selves. Regardless of the exact path of digitization, our future is dictated by the challenges of psychie, ethics, and observation of phenomena through instrumentation.</p>
+	  <p>Young guy with a training in analysis of biological and chemical datasets. Looks for disciplines that are synergistic with biology (maths, computer science, chemistry, etc.) for applications in pharma, energy, and biotech. In a perfect world, I could have all three. I admire the pioneering spirit of the Gnu Public License, Creative Commons, and open-science communities. Some day, I'd love to do a PhD using as many arduino-ey instruments as possible.</p>
+	  <p>Early in my career, I worked among scientists in a colon-cancer lab and a biofuels and microbiological physiology lab. Along the way, I learned instrumental methods, counter-selection, the importance of replication, and controls. Regardless of the instrumentation, theoretical work, derivation, and data modeling is a unifying thread to the scientific endeavour, and I chose bioinformatics and computer science as the theme for my MS degree. We live in an increasingly digital world and some might say computation is a component of modern literacy.</p>
+	  <p>After graduating, I've continued to work on open-source software projects, studying stats, linear algebra, functional programming, BDD, and machine learning. I'm working for an awesome team in a stellar company on... things.</p>
 	  <p>Functional programming fanboy, weeb, yuppie, space cowboy, gamer, guitarist. Representing 302 #onelove</p>
-           <h4>Professional:</h4>
+          <h4>Professional:</h4>
+	  <!-- Unprofessional accordion -->
 	   <div id="professional_accordion" role="tablist" aria-multiselectable="true" class="card-group">
 	     <div class="panel panel-default">
 	       <a title="headingOne" aria-controls="collapseOne" aria-expanded="false" href="#collapseOne" data-parent="professional_accordion" data-toggle="collapse" role="tab" class="panel-heading collapsed" id="workplaces"><span class="panel-title" >Places I've Worked</span></a>
@@ -120,6 +140,9 @@
 		     </li>
 		     <li id="interactive-visualization">
 		       Interactive Visualizations
+		     </li>
+		     <li id="kmerjs">
+		       Kmer.js
 		     </li>
 		     <li id="ngsci">
 		       Next Generation Sequencing Complexity Index
@@ -171,12 +194,13 @@
 			   <ul class="training-sublist">
 			     <li>Fluorescence-Activated Cell Sorting (FACS)</li>
 			     <li>Immunofluorescence / Immunohistochemistry</li>
-			     <li>Wester blot</li>
+			     <li>Western blot</li>
 			   </ul>
 			 </li>
 			 <li id="molbio">
 			   <span class="panel-title">Molecular Biology:</span>
 			   <ul class="training-sublist">
+			     <li>Northern blot</li>
 			     <li>q-RT-PCR</li>
 			     <li>Next Generation Sequencing</li>
 			   </ul>
@@ -189,44 +213,39 @@
 			 <li id="database">
 			   <span class="panel-title">Database:</span>
 			   <ul class="training-sublist">
-			     <li>MySQL/MariaDB</li>
-			     <li>PostgreSQL</li>
-			     <li>MongoDB</li>
+			     <li>MySQL/PostgreSQL/Oracle</li>
+			     <li>MongoDB/DynamoDB</li>
+			     <li>Sqlalchemy/Rails/Express ORMs</li>
 			   </ul>
 			 </li>
 			 <li id="stats">
 			   <span class="panel-title">Statistics / Visualization:</span>
 			   <ul class="training-sublist">
-			     <li>R</li>
-			     <li>KnitR</li>
-			     <li>Shiny</li>
+			     <li>R + KnitR + Shiny</li>
 			     <li>Data-Driven Documents (D3.js)</li>
 			   </ul>
 			 </li>
 			 <li id="web">
 			   <span class="panel-title">Web Development:</span>
 			   <ul class="training-sublist">
-			     <li>HTML</li>
-			     <li>Javascript</li>
-			     <li>CSS</li>
+			     <li>HTML + CSS + JS</li>
 			     <li>REST-APIs</li>
 			   </ul>
 			 </li>
 			 <li id="shell">
 			   <span class="panel-title">UNIX Shell:</span>
 			   <ul class="training-sublist">
-			     <li>Ubuntu/RHEL/Arch Linux</li>
-			     <li>OSX</li>
-			     <li>Bash</li>
+			     <li>Bash on RHEL/Debian/Arch Linux/OSX</li>
 			   </ul>
 			 </li>
 			 <li id="app">
 			   <span class="panel-title">Scripting / Full-stack:</span>
 			   <ul class="training-sublist">
-			     <li>Python</li>
-			     <li>Ruby</li>
+			     <li>Bash</li>
+			     <li>Python / Flask</li>
+			     <li>Ruby / Rails</li>
 			     <li>Perl</li>
-			     <li>NodeJS</li>
+			     <li>NodeJS / Express</li>
 			   </ul>
 			 </li>
 			 <li id="lambda">
@@ -366,24 +385,24 @@
 
   
     <footer>
-    <div class="container">
-      <div class="spacing"></div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2>Let's Stay In Touch!</h2>
+      <div class="container">
+	<div class="spacing"></div>
+	<div class="row">
+          <div class="col-md-12 text-center">
+            <h2>Let's Stay In Touch!</h2>
 
-          <div class="spacing"></div>
-      
-          <ul class="list-inline social-btns">
-            <li><a href="mailto:matthew.ralston@bms.com"><i class="fa fa-envelope-o color1"></i></a></li>
-            <li><a href="https://linkedin.com/in/matthewralston" target=_blank><i class="fa fa-linkedin color2"></i></a></li>
-	    <li><a href="http://ralstonm.biogit.pri.bms.com" target=_blank><i class="fa fa-angle-double-up color3"></i></a></li>
-            <li><a href="http://github.com/MatthewRalston" target=_blank><i class="fa fa-github color4"></i></a></li>
-            <li><a href="http://biogit.pri.bms.com/ralstonm" target=_blank><i class="fa fa-github color5"></i></a></li>
-          </ul>
-          <small>Copyright by Matt Ralston &copy;</small>
-        </div>
-      </div>
+            <div class="spacing"></div>
+	    
+            <ul class="list-inline social-btns">
+              <li><a href="mailto:matthew.ralston@bms.com"><i class="fa fa-envelope-o color1"></i></a></li>
+              <li><a href="https://linkedin.com/in/matthewralston" target=_blank><i class="fa fa-linkedin color2"></i></a></li>
+	      <li><a href="http://ralstonm.biogit.pri.bms.com" target=_blank><i class="fa fa-angle-double-up color3"></i></a></li>
+              <li><a href="http://github.com/MatthewRalston" target=_blank><i class="fa fa-github color4"></i></a></li>
+              <li><a href="http://biogit.pri.bms.com/ralstonm" target=_blank><i class="fa fa-github color5"></i></a></li>
+            </ul>
+            <small>Copyright by Matt Ralston &copy;</small>
+          </div>
+	</div>
     </div>
   </footer>
 

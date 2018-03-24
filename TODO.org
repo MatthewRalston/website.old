@@ -95,9 +95,7 @@
 * Plots
 ** Line graph
 *** Genome sequencing cost trends
-** Biotech/therapy scatterplot with brush
-*** Revenue vs disease area market size?
-*** Average approvals per year vs average revenue (with company glyphs)
-**** Brush to display approval time series AND/OR revenue time series
-** Agricultural data?
-** Commodity data? (copper)
+** Scatterplot with brush (Dota2 data)
+*** avg GPM vs avg XPM (avatar as point)
+*** brush -> show xpm and xpm line graphs, colored by player, styled as stroke-dasharray if its a loss
+
